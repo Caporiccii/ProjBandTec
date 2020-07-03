@@ -1,0 +1,13 @@
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\UnitTEst.exe
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\UnitTEst.deps.json
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\UnitTEst.runtimeconfig.json
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\UnitTEst.runtimeconfig.dev.json
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\UnitTEst.dll
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\UnitTEst.pdb
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\UnitTEst.csprojAssemblyReference.cache
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\UnitTEst.AssemblyInfoInputs.cache
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\UnitTEst.AssemblyInfo.cs
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\UnitTEst.csproj.CoreCompileInputs.cache
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\UnitTEst.dll
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\UnitTEst.pdb
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\UnitTEst.genruntimeconfig.cache

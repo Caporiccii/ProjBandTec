@@ -1,0 +1,12 @@
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.exe
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.deps.json
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.runtimeconfig.json
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.runtimeconfig.dev.json
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.dll
+C:\Projetos\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.pdb
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.AssemblyInfoInputs.cache
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.AssemblyInfo.cs
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.csproj.CoreCompileInputs.cache
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.dll
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.pdb
+C:\Projetos\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.genruntimeconfig.cache
