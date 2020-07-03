@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj": {}
+    "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj": {
+    "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
+        "projectUniqueName": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
         "projectName": "ProjectUnitTest",
-        "projectPath": "C:\\Projetos\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
+        "projectPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
         "packagesPath": "C:\\Users\\marco.coelho\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\UnitTEst\\FileProcessTest\\obj\\",
+        "outputPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {
-                "projectPath": "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj"
+              "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {
+                "projectPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {
+    "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
+        "projectUniqueName": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
         "projectName": "ProjectUnit",
-        "projectPath": "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
+        "projectPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
         "packagesPath": "C:\\Users\\marco.coelho\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\UnitTEst\\UnitTEst\\obj\\",
+        "outputPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

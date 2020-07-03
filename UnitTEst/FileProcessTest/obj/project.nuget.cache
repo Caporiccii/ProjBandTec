@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eQVbxtMnUtqdaaiOPLqb/y9+q37CiBmXUvAPgoKdnOMViW1h4M6OlOEUwaUzKr8qczCIKyx+F0q62WXC4mgdEA==",
+  "dgSpecHash": "NzfRTkOgMw921qLg80lVClVWWK692Eyq90ozG3bUOE1qOb5TncauoAOGCu1cegaty4JmSqFQzKu+Ll1yfDep1A==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
+  "projectFilePath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco.coelho\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

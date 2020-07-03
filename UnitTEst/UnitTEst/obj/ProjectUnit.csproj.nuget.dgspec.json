@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {}
+    "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {
+    "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
+        "projectUniqueName": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
         "projectName": "ProjectUnit",
-        "projectPath": "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
+        "projectPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
         "packagesPath": "C:\\Users\\marco.coelho\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\UnitTEst\\UnitTEst\\obj\\",
+        "outputPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

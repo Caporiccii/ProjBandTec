@@ -4623,11 +4623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
+      "projectUniqueName": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
       "projectName": "ProjectUnitTest",
-      "projectPath": "C:\\Projetos\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
+      "projectPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
       "packagesPath": "C:\\Users\\marco.coelho\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\UnitTEst\\FileProcessTest\\obj\\",
+      "outputPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4647,8 +4647,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {
-              "projectPath": "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj"
+            "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj": {
+              "projectPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj"
             }
           }
         }

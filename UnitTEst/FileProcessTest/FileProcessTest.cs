@@ -13,7 +13,7 @@ namespace FileProcessTest
         {
             _fileProcess = new FileProcess();
 
-          _fileProcess = Substitute
+       //   _fileProcess = Substitute
 
         }
 
@@ -40,11 +40,31 @@ namespace FileProcessTest
 
         }
         [Test]
+      //  [ExpectedException(typeof(ArgumentNullException))]
         public void File_Name_Null_Or_Empty_Throw_Null_Exception() {
 
-            fromCall = _fileProcess.FileExists("");
+            // fromCall = _fileProcess.FileExists("");
 
-            Assert.IsNull(fromCall);
+            Assert.Inconclusive();
+        }
+
+        [Test]
+        //  [ExpectedException(typeof(ArgumentNullException))]
+        public void File_Name_Null_Or_Empty_Should_Throw_Null_Exception_Using_Try_Catch()
+        {
+
+            try
+            {
+                fromCall = _fileProcess.FileExists("");
+            }
+            catch(ArgumentNullException ex)
+            {
+                return;
+            }
+
+            Assert.Fail("Not throw exception");
+
+            
         }
     }
 }

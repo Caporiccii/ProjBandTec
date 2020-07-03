@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "40HuslqOzOzkkON2GM3+5fzhJnoYNvpmG8G4Z+tyPd7BhArCs/m5IWxqp0sA9fzQc7+7needhchs2+AOAFV31Q==",
+  "dgSpecHash": "LWhB62FvCUxaiAiMMpjxex8l/Uil/J2MP+K9HKwEGuBONH6vKl86d38gMtTOXox2yVzcwb2FxOAAtlpY181GBg==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
+  "projectFilePath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
