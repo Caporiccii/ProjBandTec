@@ -1,19 +1,28 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NSubstitute;
 using NUnit.Framework;
 using System;
+using System.Configuration;
+using System.IO;
 using UnitTEst;
+using Assert = NUnit.Framework.Assert;
+using TestContext = NUnit.Framework.TestContext;
 
 namespace FileProcessTest
 {
     public class Tests
     {
+        private const string FILE_NOT_EXIST = @"NotExistFile.txt";
+        private const string FILE_EXIST = @"C:\Windows\write.exe";
+        public TestContext TestContext { get; set; }
+        private string FileNameExist;
         private FileProcess _fileProcess;
-        private bool fromCall;
+        private bool _fromCall;
         [SetUp]
         public void Setup()
         {
-            _fileProcess = new FileProcess();
 
-       //   _fileProcess = Substitute
+            _fileProcess = Substitute.For<FileProcess>();
 
         }
 
@@ -26,36 +35,41 @@ namespace FileProcessTest
         [Test]
         public void File_Name_Does_Exist() {
 
-            fromCall = _fileProcess.FileExists(@"C:\Windows\write.exe");
 
-            Assert.IsTrue(fromCall);
+            _fromCall = _fileProcess.FileExists(FILE_EXIST);
+
+            TestContext.WriteLine("Creating File: " + FILE_EXIST);
             
+            Assert.IsTrue(_fromCall);
+
         }
         [Test]
         public void File_Name_Does_Not_Exist() {
 
-            fromCall = _fileProcess.FileExists(@"NotExistFile.txt");
+            _fromCall = _fileProcess.FileExists(FILE_NOT_EXIST);
 
-            Assert.IsFalse(fromCall);
+            Assert.IsFalse(_fromCall);
 
         }
         [Test]
-      //  [ExpectedException(typeof(ArgumentNullException))]
+        [ExpectedException(typeof(ArgumentNullException))]
         public void File_Name_Null_Or_Empty_Throw_Null_Exception() {
 
-            // fromCall = _fileProcess.FileExists("");
+            //_fileProcess.When(x => x.FileExists(Arg.Any<string>())).Do(_ =>
+            //{ throw new ArgumentNullException(Arg.Any<string>());});
 
-            Assert.Inconclusive();
+         
+         // _fileProcess.FileExists("");
+            
         }
 
         [Test]
-        //  [ExpectedException(typeof(ArgumentNullException))]
-        public void File_Name_Null_Or_Empty_Should_Throw_Null_Exception_Using_Try_Catch()
+       public void File_Name_Null_Or_Empty_Should_Throw_Null_Exception_Using_Try_Catch()
         {
 
             try
             {
-                fromCall = _fileProcess.FileExists("");
+                _fromCall = _fileProcess.FileExists("");
             }
             catch(ArgumentNullException ex)
             {
@@ -65,6 +79,19 @@ namespace FileProcessTest
             Assert.Fail("Not throw exception");
 
             
+        }
+
+        public void Set_Good_File_Name()
+        {
+            FileNameExist = ConfigurationManager.AppSettings["FileNameExist"];
+            if (FileNameExist.Contains("[AppPath]"))
+            {
+                FileNameExist = FileNameExist.Replace(
+                    "[AppPath]", 
+                    Environment.GetFolderPath(
+                    Environment.SpecialFolder
+                    .ApplicationData));
+            }
         }
     }
 }

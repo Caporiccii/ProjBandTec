@@ -16,10 +16,8 @@ C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.
 C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.runtimeconfig.dev.json
 C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.dll
 C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\bin\Debug\netcoreapp3.1\ProjectUnit.pdb
-C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.csprojAssemblyReference.cache
 C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.AssemblyInfoInputs.cache
 C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.AssemblyInfo.cs
-C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.csproj.CoreCompileInputs.cache
 C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.dll
 C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.pdb
-C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.genruntimeconfig.cache
+C:\Projetos\Testes-UnitC-\UnitTEst\UnitTEst\obj\Debug\netcoreapp3.1\ProjectUnit.csprojAssemblyReference.cache

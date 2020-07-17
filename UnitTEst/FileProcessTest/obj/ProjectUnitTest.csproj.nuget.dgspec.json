@@ -10,14 +10,11 @@
         "projectUniqueName": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
         "projectName": "ProjectUnitTest",
         "projectPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\ProjectUnitTest.csproj",
-        "packagesPath": "C:\\Users\\marco.coelho\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\FileProcessTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marco.coelho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://proget.easynvest.com.br:81/nuget/Easynvest.Nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,13 +42,25 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.4.0, )"
             },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.15.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             },
             "nunit": {
               "target": "Package",
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -84,14 +92,11 @@
         "projectUniqueName": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
         "projectName": "ProjectUnit",
         "projectPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\ProjectUnit.csproj",
-        "packagesPath": "C:\\Users\\marco.coelho\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\Testes-UnitC-\\UnitTEst\\UnitTEst\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marco.coelho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,7 +104,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://proget.easynvest.com.br:81/nuget/Easynvest.Nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
